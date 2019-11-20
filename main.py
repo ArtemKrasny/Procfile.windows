@@ -2,7 +2,7 @@ import telebot
 from google_images_download import google_images_download
 import os
 
-bot = telebot.TeleBot('1009225223:AAFQe7M7bKOec14E0NoMV7bpo_krB_jcb7U')
+bot = telebot.TeleBot(TOKEN)
 
 response =google_images_download.googleimagesdownload()
 
